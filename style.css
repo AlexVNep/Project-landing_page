@@ -160,3 +160,43 @@ p {
     color: #1F2937;
     font-weight: 700;
 }
+
+/* CTA Section */
+
+.cta-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    /* border: 1px solid black; */
+}
+
+
+.text-button-holder {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 60px;
+    padding: 30px 60px 30px 60px;
+    background-color: #3882F6;
+    /* border: 1px solid green; */
+    color: #E5E7EB;
+    border-radius: 8px;
+}
+
+button {
+    background-color: #3882F6;
+    border: 1px solid #E5E7EB;
+    color: #E5E7EB;
+    width: 75px;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+button:hover {
+    text-decoration: underline;
+}
+.cta-text2{
+    font-size: 12px;
+}
