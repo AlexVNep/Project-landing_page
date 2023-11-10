@@ -128,3 +128,35 @@ p {
     border: 3px solid #3882F6;
     border-radius: 10px;
 }
+
+/* Quote Section */
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 60px;
+    /* border: 1px solid red; */
+}
+
+.quote {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 36px;
+    font-style: italic;
+    width: 614px;
+    color: #1f293773;
+}
+
+.rev-holder {
+    display: flex;
+    /* border: 1px solid black; */
+}
+
+.rev {
+    display: flex;
+    margin-left: auto;
+    color: #1F2937;
+    font-weight: 700;
+}
