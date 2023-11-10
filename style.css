@@ -200,3 +200,15 @@ button:hover {
 .cta-text2{
     font-size: 12px;
 }
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+
+.footer-text {
+    padding: 30px;
+}
